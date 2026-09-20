@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Michigan Nature Sounds</title>
+    <meta
+      name="description"
+      content="Ann Arbor Hands-On Museum inspired Michigan Nature Sounds Explorer."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">Ann Arbor Hands-On Museum</p>
+          <h1>Michigan Nature Sounds</h1>
+        </div>
+        <div class="badge">Field Guide</div>
+      </header>
+
+      <main class="layout">
+        <aside class="sidebar">
+          <h2>Explore</h2>
+          <div class="category-list" id="categoryList" aria-label="Animal categories"></div>
+        </aside>
+
+        <section class="content-panel">
+          <div class="animal-grid" id="animalGrid" aria-live="polite"></div>
+        </section>
+
+        <aside class="details-panel" id="detailsPanel" aria-live="polite">
+          <div class="placeholder">
+            <p class="placeholder-title">Choose an animal</p>
+            <p>
+              Discover local wildlife, learn their scientific names, and hear a stylized
+              nature sound inspired by their habitat.
+            </p>
+          </div>
+        </aside>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
