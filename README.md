@@ -1,15 +1,39 @@
-# Michigan Nature Sounds 🌲🦌
+# Michigan Nature Sounds
 
-An interactive wildlife sound explorer featuring Michigan animals.
+Interactive wildlife sound explorer created for:
+
+Ann Arbor Hands-On Museum
 
 ## Features
 
-✅ Browse Michigan wildlife categories  
-✅ View animal photos and scientific names  
-✅ Read species descriptions  
-✅ Listen to animal sounds  
-✅ Designed for tablets and classrooms
+- Mammal sounds
+- Bird sounds
+- Insect sounds
+- Wildlife images
+- Scientific names
+- Audio playback
 
----
+## Categories
 
-## App Flow
+🐾 Mammals
+
+🐦 Birds
+
+🪲 Insects
+
+## Technology
+
+- HTML5
+- CSS3
+- JavaScript
+- JSON
+- GitHub Pages
+- GitHub Codespaces
+
+## How It Works
+
+Choose a category → select an animal → view information → play sound.
+
+## Live Demo
+
+https://skylerdufour38.github.io/Michigan-Nature-Sounds/
